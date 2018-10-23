@@ -16,8 +16,7 @@ RUN pip install pytest selenium easyprocess itsdangerous robotframework robotfra
                 pyaml robotframework-imaplibrary robotframework-debuglibrary mechanize python-dateutil beautifulsoup4 python-guerrillamail pyparsing
 
 
-RUN mkdir /wsautomation
-COPY wsautomation /wsautomation
+RUN mkdir /automationDIR
 WORKDIR /
 
 
